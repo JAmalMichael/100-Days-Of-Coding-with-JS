@@ -1,4 +1,4 @@
-let isLoggedIn = true;
+const isLoggedIn = true;
 
 if ( isLoggedIn) {
     console.log ('User is logged in!');
