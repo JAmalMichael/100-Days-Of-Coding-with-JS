@@ -23,10 +23,10 @@ function secondClick() {
 secondButton .addEventListener('click', secondClick);*/
 
 //3a
-let firstPara = document.getElementById('first-para');
+const firstPara = document.getElementById('first-para');
 //console.log(firstPara)
 //3b
-let thirdPara = document.getElementById('third-para');
+const thirdPara = document.getElementById('third-para');
 // const thirdPara = firstPara.nextElementSibling;
 // console.log(thirdPara);
 
@@ -40,7 +40,7 @@ firstButton.addEventListener('click', clearPara)
 
 //4b 
 function changePara2() {
-    let removePara = thirdPara.style.backgroundColor = '#0615CC';
+    let changeParaColor = thirdPara.style.backgroundColor = '#0615CC';
 }
 
 secondButton.addEventListener('click', changePara2); 
